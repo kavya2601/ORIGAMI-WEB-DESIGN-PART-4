@@ -1,0 +1,25 @@
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+}
+.grid img{
+    border: 2px solid #000000;
+    border-radius: 50px;
+}
+.origami {
+    border-radius: 20px;
+    background-color: #ffffff;
+    padding: 30px;
+    margin: 25px;
+    width: 310px;
+    font-family: fantasy;
+}
+a:link{
+    color: white;
+}
+a:visited{
+    color: violet;
+}
+.origami:hover{
+    transform: scale(1.2);
+}
